@@ -30,19 +30,16 @@ const BlogCard = ({ blog }) => {
       <div className="blog-card-content absolute left-1/2 -translate-x-1/2 bottom-[-28px] w-[86%] bg-white rounded-[28px] shadow-xl px-8 py-7 transition-all duration-300 group-hover:-translate-y-2">
 
         {/* Title */}
-        <h3 className="blog-card-title text-[#274C5B] text-[24px] font-bold leading-8 mb-3">
+        <h3 className="blog-card-title text-[#274C5B] text-[22px] font-bold leading-8 mb-3">
           {blog.title}
         </h3>
-
         {/* Description */}
         <p className="blog-card-description text-[#6B6B6B] text-[16px] leading-7 mb-6">
           {blog.description}
         </p>
-
         {/* Read More */}
-        <div className="blog-card-readmore flex items-center gap-2 text-[#274C5B] font-semibold">
+        <div className="blog-card-readmore font-bold text-[20px] flex items-center gap-2 text-[#274C5B]">
           Read More
-
           <FaArrowCircleRight className="text-[#274C5B]" />
         </div>
 

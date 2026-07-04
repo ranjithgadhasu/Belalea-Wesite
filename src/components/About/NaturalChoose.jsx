@@ -1,6 +1,6 @@
 import AboutNaturalImg from "../../assets/images/AboutNaturalImg.png";
 import ReturnPurchase from "../../assets/icons/ReturnPurchase.png";
-import IconLeftImg from "../../assets/icons/IconLeftImg.png";
+import lefticonimg from "../../assets/icons/lefticonimg.svg"
 import PhoneTime from "../../assets/icons/PhoneTime.png";
 import { FaRegCircle } from "react-icons/fa";
 
@@ -29,7 +29,7 @@ const cards = [
   },
   {
     id: 2,
-    icon: IconLeftImg,
+    icon: lefticonimg,
     title: "100% Свежесть",
     description: "Мы - местный производитель",
   },

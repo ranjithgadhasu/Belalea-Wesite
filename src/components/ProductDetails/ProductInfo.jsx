@@ -28,24 +28,22 @@ const ProductInfo = () => {
       </div>
     );
   }
-
   return (
     <section className="product-info-section  py-24 bg-white">
       <div className="product-info-container max-w-7xl mx-auto px-6">
         <div className="product-info-wrapper grid lg:grid-cols-2 gap-20 items-start">
           {/* LEFT */}
-
           <div className="product-info-left">
             <div className="product-image-card relative bg-[#F9F8F8] rounded-[30px] p-8">
               {/* Badge */}
 
-              <span className="product-badge absolute top-8 left-8 bg-[#274C5B] text-white text-xs px-4 py-2 rounded-md">
+              <span className="product-badge absolute top-20 left-3 bg-[#274C5B] text-white text-xs px-4 py-2 rounded-md">
                 {product.category}
               </span>
 
               {/* Image */}
 
-              <div className="product-main-image bg-white rounded-xl h-[500px] flex justify-center items-center">
+              <div className="product-main-image bg-white h-[500px] flex justify-center items-center">
                 <img
                   src={selectedImage}
                   alt={product.title}
@@ -61,7 +59,7 @@ const ProductInfo = () => {
                 <div
                   key={item}
                   onClick={() => setSelectedImage(product.image)}
-                  className="product-thumb cursor-pointer bg-[#F9F8F8] rounded-xl p-3 border-2 border-transparent hover:border-[#274C5B]"
+                  className="product-thumb cursor-pointer bg-[#F9F8F8] rounded-4xl p-2 border-2 border-transparent hover:border-[#274C5B]"
                 >
                   <img
                     src={product.image}
@@ -77,7 +75,6 @@ const ProductInfo = () => {
             <h1 className="product-title text-[#274C5B] text-4xl font-bold mb-8">
               {product.title}
             </h1>
-
             <p className="product-description text-[#6B6B6B] leading-9 text-[17px]">
               Simply dummy text of the printing and typesetting industry. Lorem
               had ceased to been the industry's standard dummy text ever since

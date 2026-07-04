@@ -31,7 +31,7 @@ const relatedProducts = [
 
 const RelatedProducts = () => {
   return (
-    <section className="related-products-section py-24 bg-white">
+    <section className="related-products-section py-15 bg-white">
       <div className="related-products-container max-w-7xl mx-auto px-5">
 
         {/* Heading */}
@@ -51,11 +51,11 @@ const RelatedProducts = () => {
               className="related-product-card group bg-[#F9F8F8] rounded-[28px] p-4 hover:shadow-xl transition-all duration-300"
             >
               {/* Category */}
-              <span className="related-product-category inline-block bg-[#274C5B] text-white text-[12px] px-3 py-1 rounded-md mb-4">
+              <span className="related-product-category ml-4 inline-block bg-[#274C5B] text-white text-[12px] px-3 py-1 rounded-md mb-2">
                 {item.category}
               </span>
               {/* Product Image */}
-              <div className="related-product-image-wrapper bg-white rounded-xl h-[280px] flex items-center justify-center overflow-hidden">
+              <div className="related-product-image-wrapper bg-white h-[280px] flex items-center justify-center overflow-hidden">
                 <img
                   src={item.image}
                   alt={item.title}

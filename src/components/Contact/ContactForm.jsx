@@ -1,7 +1,7 @@
 const ContactForm = () => {
   return (
-    <section className="bg-white py-24">
-      <div className="max-w-7xl mx-auto px-5">
+    <section className="bg-white py-1">
+      <div className="max-w-6xl mx-auto px-5">
 
         <form className="space-y-10">
 

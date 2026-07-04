@@ -2,20 +2,17 @@ import NaturalImgFour from "../../assets/images/NaturalImgFour.png";
 
 const BlogBannerOne = () => {
   return (
-    <section className="bg-white pt-10 pb-24">
-      <div className="w-full mx-auto relative">
-
+    <section className="bg-white pb-36">
+      <div className="w-full max-w-[1920px] mx-auto relative">
         <div className="relative">
-
           {/* Banner */}
-        <img
-  src={NaturalImgFour}
-  alt=""
-  className="w-full h-[520px] object-cover"
-/>
+          <img
+            src={NaturalImgFour}
+            alt=""
+            className="w-full h-[898px] object-cover object-[center_30%] rounded-[24px]"
+          />
           {/* Floating Card */}
-          <div className="absolute left-1/2 -translate-x-1/2 bottom-[-85px] w-[60%] bg-white rounded-[28px] shadow-xl px-14 py-10 mt-[30px]">
-
+          <div className="absolute left-1/2 -translate-x-1/2 bottom-[-90px] w-[78%] max-w-[980px] bg-white rounded-[28px] px-14 py-10 shadow-[0_10px_40px_rgba(0,0,0,0.08)]">
             <p className="text-[15px] text-[#6B6B6B] mb-5">
               <span className="font-semibold text-[#274C5B]">
                 Дата публикации:
@@ -33,11 +30,8 @@ const BlogBannerOne = () => {
               Ipsum is that it has a more-or-less normal distribution of
               letters, as opposed.
             </p>
-
           </div>
-
         </div>
-
       </div>
     </section>
   );

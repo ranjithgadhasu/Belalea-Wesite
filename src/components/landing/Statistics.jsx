@@ -31,7 +31,7 @@ const products = [
 
 const Statistics = () => {
   return (
-    <section className="statistics-section w-full bg-[#8CB595] py-24 h-[730px]">
+    <section className="statistics-section w-full bg-[#8CB595] py-24 h-[640px]">
       <div className="statistics-container max-w-7xl mx-auto px-5">
 
         {/* Header */}
@@ -54,15 +54,14 @@ const Statistics = () => {
           {products.map((item) => (
             <div
               key={item.id}
-              className="statistics-card relative bg-white rounded-3xl p-4 shadow-md hover:shadow-xl hover:-translate-y-2 transition-all duration-300"
+              className="statistics-card relative bg-[#F9F8F8] rounded-3xl  p-8 shadow-md hover:shadow-xl hover:-translate-y-2 transition-all duration-300"
             >
               {/* Badge */}
-              <span className="statistics-badge absolute top-4 left-4 bg-[#274D5B] text-white text-[11px] px-3 py-1 rounded-md">
+              <span className="statistics-badge ml-5 absolute top-4 left-4 bg-[#274D5B] text-white text-[11px] px-3 py-1 rounded-sm">
                 {item.tag}
               </span>
-
               {/* Image */}
-              <div className="statistics-image bg-[#F8F8F8] rounded-xl h-[270px] flex items-center justify-center overflow-hidden">
+              <div className="statistics-image mt-5 bg-[hsl(0,0%,100%)] rounded-sl h-[200px] flex items-center justify-center overflow-hidden">
                 <img
                   src={item.image}
                   alt={item.title}
@@ -71,7 +70,7 @@ const Statistics = () => {
               </div>
 
               {/* Title */}
-              <h4 className="tatistics-card-title mt-5 text-[#274D5B] text-lg font-bold leading-6">
+              <h4 className=" mt-5 text-[#274D5B] text-sm ml-5 font-bold leading-6">
                 {item.title}
               </h4>
             </div>

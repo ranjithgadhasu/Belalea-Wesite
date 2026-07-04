@@ -12,7 +12,7 @@ const ContactMap = () => {
           <img
             src={ContactLefImg}
             alt="Map"
-            className="contact-map-image w-full h-[650px] object-cover rounded-[34px]"
+            className="contact-map-image w-full h-[620px] object-cover rounded-[34px]"
           />
 
           {/* Address Card */}
@@ -20,24 +20,24 @@ const ContactMap = () => {
 
             {/* Small Heading */}
             <p
-              className="contact-map-subtitle text-[#8DBB98] text-[46px] leading-none"
+              className="contact-map-subtitle text-[#8DBB98] text-[48px] leading-none"
               style={{ fontFamily: "Rosa Marena, cursive" }}
             >
               Где мы ?
             </p>
 
             {/* Title */}
-            <h2 className="contact-map-title text-[#274C5B] text-[52px] font-bold leading-tight mt-2">
+            <h2 className="contact-map-title text-[#274C5B] text-[50px] font-bold leading-tight mt-2">
               Наш адрес
             </h2>
 
             {/* Description */}
-            <p className="contact-map-description text-[#6B6B6B] text-[18px] leading-8 mt-5">
+            <p className="contact-map-description text-[#6B6B6B] text-[18px] leading-8 mt-4">
               Мы находимся в самом экологически чистом районе Беларуси.
             </p>
 
             {/* Office */}
-            <div className="contact-map-address flex items-start gap-5 mt-10">
+            <div className="contact-map-address flex items-start gap-5 mt-5">
 
               <div className="contact-map-icon w-14 h-14 rounded-full border-2 border-[#7EB693] flex items-center justify-center flex-shrink-0">
                 <IoLocationOutline
@@ -47,7 +47,7 @@ const ContactMap = () => {
               </div>
 
               <div>
-                <h3 className="contact-map-address-title text-[#274C5B] text-[26px] font-bold">
+                <h3 className="contact-map-address-title text-[#274C5B] text-[18px] font-bold">
                   Офис:
                 </h3>
 
@@ -59,7 +59,7 @@ const ContactMap = () => {
             </div>
 
             {/* Factory */}
-            <div className="flex items-start gap-5 mt-8">
+            <div className="flex items-start gap-5 mt-2">
 
               <div className="w-14 h-14 rounded-full border-2 border-[#7EB693] flex items-center justify-center flex-shrink-0">
                 <IoLocationOutline
@@ -69,7 +69,7 @@ const ContactMap = () => {
               </div>
 
               <div>
-                <h3 className="text-[#274C5B] text-[26px] font-bold">
+                <h3 className="text-[#274C5B] text-[18px] font-bold">
                   Производство:
                 </h3>
 

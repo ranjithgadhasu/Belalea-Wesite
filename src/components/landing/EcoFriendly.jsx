@@ -22,42 +22,41 @@ const categories = [
 
 const EcoFriendly = () => {
   return (
-    <section className="eco-section w-full bg-[#F1F8F4] py-24">
-      <div className="eco-container max-w-[1450px] mx-auto px-5">
-        <div className="eco-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7">
+    <section className="eco-section w-full bg-[#F1F8F4] py-28">
+      <div className="eco-container w-full px-0">
+        <div className="eco-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {categories.map((item) => (
             <div
               key={item.id}
-              className="eco-card group relative overflow-hidden rounded-[6px] h-[380px] cursor-pointer"
+              className="eco-card group relative overflow-hidden rounded-none h-[450px] cursor-pointer"
             >
               {/* Background Image */}
               <img
                 src={item.image}
                 alt={item.title}
-                className="eco-image absolute inset-0 w-full h-full object-cover transition-all duration-500 group-hover:scale-110"
+                className="eco-image absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               />
 
               {/* Overlay */}
-              <div className="eco-overlay absolute inset-0 bg-black/5 group-hover:bg-black/10 transition-all duration-500"></div>
+              <div className="eco-overlay absolute inset-0 bg-black/0 group-hover:bg-black/5 transition-all duration-500"></div>
 
               {/* Center Button */}
               <div className="eco-content absolute inset-0 flex items-center justify-center">
                 <button
                   className="
-                    eco-btn
-                    bg-white
-                    text-[#2F5665]
-                    font-semibold
-                    text-lg
-                    px-10
-                    py-5
-                    rounded-2xl
-                    shadow-xl
-                    transition-all
-                    duration-300
-                    group-hover:-translate-y-2
-                    group-hover:shadow-2xl
-                  "
+eco-btn
+w-[405px]
+h-[96px]
+bg-white
+rounded-[18px]
+text-[#274C5B]
+text-[25px]
+font-semibold
+shadow-lg
+transition-all
+duration-300
+group-hover:scale-105
+"
                 >
                   {item.title}
                 </button>

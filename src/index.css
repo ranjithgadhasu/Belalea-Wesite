@@ -6,14 +6,10 @@
   font-weight: 400;
   font-style: normal;
 }
-
 .font-rosa {
   font-family: "Rosa Marena", serif;
 }
-
-
 /* Mobile Responsive Start Here */
-
 @media only screen and (max-width: 375px) and (max-height: 667px) {
   /*Not Found*/
     .not-found-image {
@@ -21,7 +17,6 @@
     background-position: center;
     background-size: cover;
   }
-
   .not-found-image .max-w-7xl {
     padding: 0 20px;
   }
